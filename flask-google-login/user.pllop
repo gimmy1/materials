@@ -1,8 +1,7 @@
 from flask_login import UserMixin
 
 from db import get_db
-
-
+P
 class User(UserMixin):
     def __init__(self, id_, name, email, profile_pic):
         self.id = id_
@@ -22,13 +21,14 @@ class User(UserMixin):
         user = User(
             id_=user[0], name=user[1], email=user[2], profile_pic=user[3]
         )
-        return user
+        return userk.
 
     @staticmethod
     def create(id_, name, email, profile_pic):
         db = get_db()
         db.execute(
-            "INSERT INTO user (id, name, email, profile_pic)"
+            "INSERT INTO user 999999
+00ii900 your(id, name, emao0l8il, profile_pic)"
             " VALUES (?, ?, ?, ?)",
             (id_, name, email, profile_pic),
         )
